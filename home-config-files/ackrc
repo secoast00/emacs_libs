@@ -33,13 +33,15 @@
 --ignore-dir=ext-4.1.1a
 --ignore-dir=log
 --ignore-dir=design
+--ignore-dir=.git
 
 ## use --type=spa to search all of this group
 --type-set=spa=.css,.scss,.html,.htm,.erb,.js,.rb
+
 --type-set=spaui=.css,.scss,.html,.htm,.erb,.js
 
 ## lines to display before and after a line matched
---before-context=3
+--before-context=6
 --after-context=3
 
 
